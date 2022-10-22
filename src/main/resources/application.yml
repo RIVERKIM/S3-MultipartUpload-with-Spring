@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+cloud:
+  aws:
+    credentials:
+      instanceProfile: true
+      access_key: #your accessKey
+      secret_key: #your secretKey
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: kurly-test
+    stack:
+      auto: false
