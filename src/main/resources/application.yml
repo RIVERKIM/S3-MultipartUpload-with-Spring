@@ -10,6 +10,6 @@ cloud:
     region:
       static: ap-northeast-2
     s3:
-      bucket: kurly-test
+      bucket: #your bucket
     stack:
       auto: false
